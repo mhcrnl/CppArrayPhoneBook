@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1500559823 source:/home/mhcrnl/Documents/CppArrayPhoneBook/main.cpp
+	<stdio.h>
+	<iostream>
+	<cstring>
+
