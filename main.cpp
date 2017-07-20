@@ -5,10 +5,23 @@
 
 using namespace std;
 
-char pb[10][2][50];
+class Contact{
+    string nume;
+    string nrTel;
+};
 
+char pb[10][2][50];
+/**
+    Adauga un contact
+*/
 void addEntry(char arr[10][2][50]);
+/**
+    Afiseaza contactele din array
+*/
 void display(char arr[10][2][50]);
+/**
+    Verifica
+*/
 void check(char arr[10][2][50]);
 
 int i = 0;

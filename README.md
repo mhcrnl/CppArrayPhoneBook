@@ -2,6 +2,8 @@
 
 At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
 
+Acest proiect implementeaza o agenda telefonica simpla cu stocarea datelor intr-un [array](http://www.cplusplus.com/reference/array/array/) (tablou) si care utilizeaza metodele puse la dispozitie de clasa array.
+
 ## Code Example
 
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
@@ -17,6 +19,21 @@ Provide code examples and explanations of how to get the project.
 ## API Reference
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+```Cpp
+/**
+    Adauga un contact
+*/
+void addEntry(char arr[10][2][50]);
+/**
+    Afiseaza contactele din array
+*/
+void display(char arr[10][2][50]);
+/**
+    Verifica 
+*/
+void check(char arr[10][2][50]);
+```
+
 
 ## Tests
 
